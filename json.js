@@ -23,3 +23,6 @@ const conStr = JSON.stringify(obj);
 // console.log(conStr);
 const conObj = JSON.parse(conStr);
 console.log(conObj);
+
+
+// fatch !
