@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 
-    <button onclick="runData()">Run Json</button>
-    <button onclick="loadData()">load Data</button>
+    <!-- <button onclick="runData()">Run Json</button>
+    <button onclick="loadData()">load Data</button> -->
+
+    <!-- <button onclick="loadData2()">Load Data</button>
+
+    <div>
+        <ul id="list-container">
+
+        </ul>
+    </div> -->
+
+
+    <button class="btn bg-white" onclick="runData()">Run Data</button>
+    <div>
+        <ul id="list-box" ></ul>
+    </div>
 
     <script src="fetch.js"></script>
 </body>
